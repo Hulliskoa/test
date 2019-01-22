@@ -1,11 +1,7 @@
-body{
-	height: 1vw;
-	margin: 0;
-}
+
 
 #content-wrapper{
-	width: 768px;
-	height: 1360px;
+	width: 100%;
 	background-image: url("Bakgrunnsbilde.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
