@@ -19,7 +19,8 @@ function redirectLvl2(){
 }
 
 function redirectLvl3(){
-	if(document.getElementById("inputLvl1").value.toLowerCase() == "start"){
+	var input = document.getElementById("inputLvl1").value.toLowerCase();
+	if( input == "learn" || input == "block" || input == "escape"){
 		window.location.href = 'https://hulliskoa.github.io/theGame/lvl4';
 	}
 }
