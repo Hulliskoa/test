@@ -3,13 +3,80 @@ body{
 
 }
 
-
+@media only screen and (max-width: 1000px) {
 #content-wrapper{
-	height: 100vh;
+	height: 150vh;
 	width: 100%;
 	background-image: url("Bakgrunnsbilde.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 200%;
+	background-size: 100% 100%;
+	
+
+}
+
+#logo{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+#readyPlayerOne{
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+
+#logo1{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+.header2{
+	width: 30%;
+	height: auto;
+	margin-left: 35%;
+	margin-top: 2%;
+}
+
+.inputBox{
+	background-color: transparent #551A8B;
+	float: left;
+	height: 7vw;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 35%;
+	border-radius: 2%;
+	text-align: center;
+	font-size: 3vw;
+}
+
+.textBoxes{
+
+	width: 55%;
+	line-height: 1.4;
+
+	margin-left: 20%;
+	margin-top: 2%;
+	padding: 2.5vw;
+	color: white;
+	border: solid 3px rgba(119, 117, 119, 0.8);
+	font-family: helvetica;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow:0px 0px 50px 1px #b315c1;
+	font-size: 4.5vw; 
+}
+
+}
+
+@media only screen and (min-width: 1001px) {
+#content-wrapper{
+	height: 250vh;
+	width: 100%;
+	background-image: url("Bakgrunnsbilde.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	
 
 }
@@ -23,13 +90,13 @@ body{
 	width: 60%;
 	height: auto;
 	margin-left: 20%;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 
 #logo1{
-	width: 20%;
-	margin-left: 40%;
+	width: 40%;
+	margin-left: 30%;
 	margin-top: 5%;
 }
 
@@ -43,21 +110,21 @@ body{
 .inputBox{
 	background-color: transparent #551A8B;
 	float: left;
-	height: 3vw;
-	width: 20%;
+	height: 5vw;
+	width: 30%;
 	margin-top: 2%;
-	margin-left: 40%;
+	margin-left: 35%;
 	border-radius: 2%;
 	text-align: center;
-	font-size: 1vw;
+	font-size: 3vw;
 }
 
 .textBoxes{
 
-	width: 20%;
+	width: 70%;
 	line-height: 1.4;
 
-	margin-left: 22%;
+	margin-left: 15%;
 	margin-top: 2%;
 	padding: 2.5vw;
 	color: white;
@@ -65,5 +132,9 @@ body{
 	font-family: helvetica;
 	background-color: rgba(0, 0, 0, 0.3);
 	box-shadow:0px 0px 50px 1px #b315c1;
-	font-size: 1vw; 
+	font-size: 3vw; 
 }
+
+}
+
+	
