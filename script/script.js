@@ -5,7 +5,7 @@ function redirectStart(){
 }
 
 function redirectLvl1(){
-	if(document.getElementById("inputLvl1").value.toLowerCase() == "utmaning"){
+	if(document.getElementById("inputLvl1").value.toLowerCase() == "challenge"){
 		window.location.href = 'file:///C:/Users/Truls/Desktop/ReadyPlayerOne/lvl2.html';
 	}
 }
@@ -21,5 +21,11 @@ function redirectLvl2(){
 function redirectLvl3(){
 	if(document.getElementById("inputLvl1").value.toLowerCase() == "start"){
 		window.location.href = 'file:///C:/Users/Truls/Desktop/ReadyPlayerOne/lvl4.html';
+	}
+}
+
+function redirectLvl4(){
+	if(document.getElementById("inputLvl1").value.toLowerCase() == "start"){
+		window.location.href = 'file:///C:/Users/Truls/Desktop/ReadyPlayerOne/final.html';
 	}
 }
