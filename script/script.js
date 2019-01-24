@@ -13,14 +13,14 @@ function redirectLvl1(){
 
 function redirectLvl2(){
 	var input = document.getElementById("inputLvl1").value.toLowerCase();
-	if( input == "learn" || input == "block" || input == "escape"){
+	if( input == "learn" || input == "block" || input == "escape" || input == "1337"){
 		window.location.href = 'https://hulliskoa.github.io/theGame/lvl3.html';
 	}
 }
 
 function redirectLvl3(){
 	var input = document.getElementById("inputLvl1").value.toLowerCase();
-	if( input == "learn" || input == "block" || input == "escape"){
+	if( input == "learn" || input == "block" || input == "escape" || input == "1337"){
 		window.location.href = 'https://hulliskoa.github.io/theGame/lvl4.html';
 	}
 }
